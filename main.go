@@ -1,13 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
 
 	//Instanciando estructuras
-	Go := &course.Course{
+	/* Go := &course.Course{
 		Name:    "Go desde cero",
 		Price:   123.34,
 		IsFree:  false,
@@ -19,16 +15,16 @@ func main() {
 		},
 	}
 
-	Go.PrintClasses()
+	Go.PrintClasses() */
 
 }
 
 //Funcion normal
-func PrintClassesNormal(c Course) {
+/* func PrintClassesNormal(c Course) {
 	text := "Las clases del curso %s son: "
 	for _, class := range c.Classes {
 		text += class + ", "
 	}
 
 	fmt.Println(text[:len(text)-2])
-}
+} */
